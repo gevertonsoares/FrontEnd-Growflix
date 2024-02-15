@@ -12,3 +12,5 @@ Projeto desenvolvido para colocar em prática todos os conhecimentos adquiridos 
 - CSS
 - JavaScript
 - Bootstrap
+
+[Growflix]( https://gevertonsoares.github.io/FrontEnd-Growflix/)
