@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+
+.bg-header-index {
+    background-image: url('./assets/banner-initial.png');
+    min-height: 680px;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* style home */
+.bg-header-home {
+    background-image: url('./assets/growcast-01.png');
+    height: 700px;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-logo-home {
+    max-width: 75px;
+}
+
+.font-growcast {
+    font-size: 50px;
+}
+
+.growcast-00 {
+    background-size: cover;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.rainbow-name {
+    background: linear-gradient(90deg, #ff0000, #ff8000, #ffff00, #80ff00, #00ff80, #0080ff, #0000ff, #8000ff, #ff00ff);
+    background-size: 1800% 1800%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: arco-iris 8s linear infinite;
+}
+
+@keyframes arco-iris {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+

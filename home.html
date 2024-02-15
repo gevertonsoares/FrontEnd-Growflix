@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Growflix - Home</title>
+  <link rel="icon" href="./assets/faviconGrowflix.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="bg-header-home">
+    <div class="container-fluid z-3 position-absolute ">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg bg-body-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img class="img-logo-home" src="./assets/logo-growflix.svg" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-light active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#growcast">Growcasts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#webinar">Webinar em Flutter</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#jornada">Jornada UX/UI</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#diversos">Diversos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="container h-100 d-flex flex-column justify-content-end">
+      <div class="row mb-5 p-5 text-light">
+        <div class="col-12" id="video-destaque">
+          <!--Conteudo criado em JS-->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-12 text-light">
+          <h5 id="growcast">Growcast's </h5>
+          <hr class="border border-danger border-2 opacity-50">
+        </div>
+      </div>
+    </div>
+
+    <div class="container " id="containerGrowcast">
+      <div class="row g-5 " id="cardContainerGrowcast">
+
+         <!--Conteudo criado em JS-->
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-12 text-light">
+          <h5 id="webinar">Webinar Flutter</h5>
+          <hr class="border border-danger border-2 opacity-50">
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="containerWebinar">
+      <div class="row g-5" id="cardContainerWebinar">
+
+         <!--Conteudo criado em JS-->
+
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-12 text-light">
+          <h5 id="jornada">Jornada UX/UI</h5>
+          <hr class="border border-danger border-2 opacity-50">
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="containerUXUI">
+      <div class="row g-5" id="cardContainerUXUI">
+
+         <!--Conteudo criado em JS-->
+         
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-12 text-light">
+          <h5 id="diversos">Diversos</h5>
+          <hr class="border border-danger border-2 opacity-50">
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="containerDiversos">
+      <div class="row g-5" id="cardContainerDiversos">
+
+        <!--Conteudo criado em JS-->
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Modal videos Card -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body " id="videoBody">
+            <!-- Conteúdo do modal feito em JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <br />
+    <hr class="border border-danger border-2 opacity-50">
+
+    <div class="container text-light opacity-50">
+      <div class="row">
+        <div class="col-12">
+          <p>Dúvidas? Ligue 0800 591 8942</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-start text-light opacity-50">
+      <div class="row mt-3">
+        <div class="col-6 col-md-3">
+          <p>Perguntas frequentes</p>
+          <p>Relações com investidores</p>
+          <p>Formas de assistir</p>
+          <p>Informações corporativas</p>
+          <p>Só na Growflix</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <p>Central de ajuda</p>
+          <p>Carreiras</p>
+          <p>Termos de uso</p>
+          <p>Entre em contato</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <p>Conta</p>
+          <p>Resgatar cartão pré-pago</p>
+          <p>Privacidade</p>
+          <p>Teste de velocidade</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <p>Media center</p>
+          <p>Comprar cartão pré-pago</p>
+          <p>Preferências de cookies</p>
+          <p>Avisos legais</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-light opacity-50">
+      <div class="row mt-5">
+        <div class="col-12">
+          <p>Growflix Growdev</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center text-light">
+          <p><small>Coded by <span class="rainbow-name">Geverton Soares</span> 2024</small></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+      <script src="./apiVideos.js"></script>
+      <script src="./main.js"></script>
+</body>
+
+</html>
